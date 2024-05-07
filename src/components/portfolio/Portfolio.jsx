@@ -17,11 +17,11 @@ const Portfolio = () => {
       <div className="portfolio-main">
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
-            <Tab>ALL</Tab>
-            <Tab>LOGO</Tab>
-            <Tab>VIDEO</Tab>
-            <Tab>GRAPHIC DESIGN</Tab>
-            <Tab>MOCKUP</Tab>
+            <Tab>JavaScript</Tab>
+            <Tab>React</Tab>
+            <Tab>PHP</Tab>
+            <Tab>Flutter</Tab>
+            <Tab>Java</Tab>
           </TabList>
 
           <div className="container">

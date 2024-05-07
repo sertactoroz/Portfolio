@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
+import MatrixEffect from "./components/MatrixEffect";
 
 const App = () => {
   // this for animation
@@ -25,6 +26,7 @@ const App = () => {
         outerScale={1.2}
       />
       <ScrollToTop />
+      <MatrixEffect />
       <AllRoutes />
       {/* End contact */}
       <ToastContainer />

@@ -2,25 +2,26 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2023 - Present",
+    position: "Full-stack Developer",
+    compnayName: "NGI Tech",
+    details: `NGI provides software solutions, encompassing AR, VR, and Image Processing to a global clientele. 
+    CCI Filo - Involved in the development of the CCI Filo, a vehicle and personnel tracking application for Coca Cola Co. 
+    Contentlab - Contributed to the Contentlab project, developed using HTML, CSS, and Vanilla JavaScript, focusing on scroll-triggered svg animations. 
+    Addad.io - Currently involved in the Addad.io project aimed at revolutionizing advertising dynamics for various enterprises.`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2022 - 2023",
+    position: "Full-stack Developer",
+    compnayName: "Balance Network Exchange",
+    details: `Joined as a full-stack developer, actively participated in backlog grooming, sprint planning & other agile ceremonies.
+    Improved scalability via feature refactoring, bug fixes, and optimization. Frontend enhancements utilized React and TypeScript, and backend improvements with Java / Spring Boot for API requests.`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2023 - Present",
+    position: "Mobile Developer (Volunteer)",
+    compnayName: "JuniusTech",
+    details: `Volunteering as a mobile developer, contributing to the development of Juniflow, a project management tool. Utilizing Dart/Flutter for implementation.`,
   },
 ];
 

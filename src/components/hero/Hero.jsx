@@ -4,16 +4,15 @@ import heroImg from "../../assets/img/hero/dark.png";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
+import MatrixEffect from "../MatrixEffect";
 
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "M.Sertaç Toröz",
+  heroTitleName: "Mustafa Sertaç Toröz",
   heroDesignation: "Software Developer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDescriptions: `
+  I'm a Turkish full-stack developer dedicated to crafting seamless and user-centric digital experiences. My passion lies in leveraging technology to create innovative solutions that enhance the lives of others.`,
   heroBtn: "more about me",
 };
 
@@ -26,6 +25,7 @@ const Hero = () => {
   return (
     <>
       <div className="row home-details-container align-items-center">
+        <MatrixEffect />
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
@@ -40,9 +40,9 @@ const Hero = () => {
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
-            <h1 className="text-uppercase poppins-font">
+            <h1 className="text-uppercase poppins-font" style={{ fontSize: '2em' }}>
               I'm {heroContent.heroTitleName}.
-              <span>{heroContent.heroDesignation}</span>
+              <span style={{ fontSize: '0.8em' }}>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>
@@ -51,6 +51,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
+
       </div>
       {/* End home-details-container */}
 
@@ -64,6 +65,7 @@ const Hero = () => {
         closeTimeoutMS={500}
       >
         <div>
+
           <button className="close-modal" onClick={toggleModalOne}>
             <img src={cancelImg} alt="close icon" />
           </button>
@@ -71,6 +73,7 @@ const Hero = () => {
 
           <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
+
               <div className="title-section text-left text-sm-center">
                 <h1>
                   ABOUT <span>ME</span>

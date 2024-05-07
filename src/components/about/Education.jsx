@@ -2,25 +2,34 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2014",
+    degree: "Materials Science & Engineering",
+    institute: "Gebze Institute Of Technology",
+    details: ``,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "M.Sc.",
+    degree: "Nano Science & Nano Engineering",
+    institute: "Istanbul Technical University",
+    details: ``,
   },
   {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "M.B.A.",
+    degree: "Master Of Business Administration",
+    institute: "Gebze Institute Of Technology & SRH Hochschule Heidelberg (Erasmus)",
+    details: ``,
+  },
+  {
+    year: "2022",
+    degree: "Modern Javascript & React",
+    institute: "Udemy",
+    details: `Completed a course in Modern Javascript & React.`,
+  },
+  {
+    year: "2023",
+    degree: "Mobile Application Development (Dart/Flutter)",
+    institute: "Softito IT Academy",
+    details: `Completed a course in Mobile Application Development using Dart/Flutter.`,
   },
 ];
 
