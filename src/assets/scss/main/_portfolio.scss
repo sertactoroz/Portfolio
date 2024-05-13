@@ -65,10 +65,14 @@
 
             img {
                 @include img-size;
-                position: absolute;
+                // height: auto;
+                // width: 100%;
+                
+                // position: center;
                 top: 0;
                 left: 0;
                 border-radius: 0.5rem;
+                
             }
 
             h3 {

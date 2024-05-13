@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/dark.png";
+import heroImg from "../../assets/img/hero/avatar2.png";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import MatrixEffect from "../MatrixEffect";
+import Social from "../../components/Social";
 
 const heroContent = {
   heroImage: heroImg,
@@ -44,15 +45,23 @@ const Hero = () => {
               I'm {heroContent.heroTitleName}.
               <span style={{ fontSize: '0.8em' }}>{heroContent.heroDesignation}</span>
             </h1>
+
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
+
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+            <div className="contact p-2 pt-4">
+              <Social />
+            </div>
+
           </div>
         </div>
 
       </div>
+
       {/* End home-details-container */}
 
       {/* Start Modal for About More */}

@@ -8,6 +8,7 @@ import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
+import SwitchLanguage from "../../components/switch/SwitchLanguage";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -22,6 +23,7 @@ const HomeDark = () => {
 
   return (
     <div className="yellow">
+      <SwitchLanguage />
       <SwitchDark />
       {/* End Switcher */}
       <Tabs>
@@ -113,7 +115,6 @@ const HomeDark = () => {
                   </p>
                   <Address />
                   {/* End Address */}
-
                   <Social />
                   {/* End Social */}
                 </div>

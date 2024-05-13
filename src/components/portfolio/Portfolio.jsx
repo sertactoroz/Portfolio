@@ -29,7 +29,6 @@ const Portfolio = () => {
               <div className="tab-container">
                 {PortfolioData.map((item) => {
                   const { id, type, image, delayAnimation } = item;
-
                   return (
                     <div
                       key={id}
