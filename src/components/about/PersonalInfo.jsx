@@ -19,7 +19,7 @@ const PersonalInfo = () => {
       {personalInfoContent.map((val, i) => (
         <li key={i}>
           <span className="title">{val.meta}: </span>
-          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
+          <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block" style={{ color: val.metaInfo === "Available" ? "#5be85b" : "inherit" }}>
             {val.metaInfo}
           </span>
         </li>

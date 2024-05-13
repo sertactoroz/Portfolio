@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import lightImage from "../../assets/img/sun.png";
+import "./SwitchLanguage.css";
 
 const SwitchLanguage = () => {
     const [isDark, setIsDark] = useState(false);
@@ -19,21 +19,12 @@ const SwitchLanguage = () => {
     };
 
     return (
-        <label className={`theme-switcher-label d-flex ${isDark ? "active" : ""}`}>
-            <input
-                type="checkbox"
-                onClick={handleLabelClick}
-                className="theme-switcher"
-            />
-            <div className="switch-handle">
-                <span className="light-text">
-                    <img src={lightImage} alt="swicher" className="filter_1" />
-                </span>
-                <span className="dark-text">
-                    <i className="fa fa-moon-o" aria-hidden="true"></i>
-                </span>
-            </div>
-        </label>
+
+        <div class="nav-link scroll flags pl-3 py-auto">
+            <a href="#" title="Turkish"><span class="flag tr flag-icon flag-icon-tr flag-icon-squared"></span></a>
+            <a href="#" title="English"><span class="flag us flag-icon flag-icon-us flag-icon-squared"></span></a>
+            <a href="#" title="Deutch"><span class="flag de flag-icon flag-icon-de flag-icon-squared"></span></a>
+        </div>
     );
 };
 
