@@ -9,7 +9,6 @@ import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
 import SwitchLanguage from "../../components/switch/SwitchLanguage";
-
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },

@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/avatar2b.png";
+import heroImg from "../../assets/img/hero/avatar2bd.png";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
-import MatrixEffect from "../MatrixEffect";
 import Social from "../../components/Social";
+import ScoreBoard from "../scoreBoard/ScoreBoard";
 
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Mustafa Sertaç Toröz",
+  heroTitleName: "Sertaç Toröz",
   heroDesignation: "Software Developer",
   heroDescriptions: `
   I'm a Turkish full-stack developer dedicated to crafting seamless and user-centric digital experiences. My passion lies in leveraging technology to create innovative solutions that enhance the lives of others.`,
@@ -25,8 +25,9 @@ const Hero = () => {
 
   return (
     <>
+      {/* <ScoreBoard /> */}
       <div className="row home-details-container align-items-center">
-        <MatrixEffect />
+
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
@@ -41,7 +42,7 @@ const Hero = () => {
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
-            <h1 className="text-uppercase poppins-font" style={{ fontSize: '2em' }}>
+            <h1 className="text-uppercase poppins-font" style={{ fontSize: '3em' }}>
               I'm {heroContent.heroTitleName}.
               <span style={{ fontSize: '0.8em' }}>{heroContent.heroDesignation}</span>
             </h1>
@@ -53,11 +54,13 @@ const Hero = () => {
 
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+
             <div className="contact p-2 pt-4">
               <Social />
             </div>
 
           </div>
+
         </div>
 
       </div>
