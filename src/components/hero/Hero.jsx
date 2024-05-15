@@ -6,7 +6,7 @@ import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import Social from "../../components/Social";
 import ScoreBoard from "../scoreBoard/ScoreBoard";
-
+import GeoLocation from "../GeoLocation";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <>
-      {/* <ScoreBoard /> */}
+      <ScoreBoard />
       <div className="row home-details-container align-items-center">
 
         <div
@@ -58,6 +58,7 @@ const Hero = () => {
             <div className="contact p-2 pt-4">
               <Social />
             </div>
+            <GeoLocation />
 
           </div>
 
