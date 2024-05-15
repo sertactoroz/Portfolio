@@ -6,7 +6,7 @@ function GeoLocation() {
     // const [currLocationJs, setCurrLocationJs] = useState({});
     useEffect(() => {
         getLocation();
-        getLocationJs();
+        // getLocationJs();
     }, []);
 
     const getLocation = async () => {
@@ -14,13 +14,13 @@ function GeoLocation() {
         setCurrLocation(location.data);
     };
 
-    const getLocationJs = () => {
-        navigator.geolocation.getCurrentPosition((position) => {
-            console.log(position);
-            const { latitude, longitude } = position.coords;
-            setCurrLocationJs({ latitude, longitude });
-        });
-    };
+    // const getLocationJs = () => {
+    //     navigator.geolocation.getCurrentPosition((position) => {
+    //         console.log(position);
+    //         const { latitude, longitude } = position.coords;
+    //         setCurrLocationJs({ latitude, longitude });
+    //     });
+    // };
 
     return (
         <div>
