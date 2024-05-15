@@ -3,7 +3,7 @@ import axios from "axios";
 
 function GeoLocation() {
     const [currLocation, setCurrLocation] = useState({});
-    const [currLocationJs, setCurrLocationJs] = useState({});
+    // const [currLocationJs, setCurrLocationJs] = useState({});
     useEffect(() => {
         getLocation();
         getLocationJs();
