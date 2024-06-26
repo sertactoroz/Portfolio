@@ -5,7 +5,6 @@ import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import Social from "../../components/Social";
-import ScoreBoard from "../ScoreBoard";
 import GeoLocation from "../GeoLocation";
 const heroContent = {
   heroImage: heroImg,
