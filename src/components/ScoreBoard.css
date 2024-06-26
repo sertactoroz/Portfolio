@@ -87,7 +87,7 @@
   padding: 1rem 1rem 1.2rem;
   box-sizing: content-box;
   border-radius: 1rem;
-  position: relative;
+  position: fixed;
   background: linear-gradient(180deg, #1c1d1f 0%, #212224 87.18%, #313235 100%);
 
   box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.7) inset,
@@ -136,13 +136,13 @@
 
 .border-score {
   display: grid;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   color: #fff;
   cursor: pointer;
   left: 30%;
   z-index: -1;
-  position: fixed;
+  position: sticky;
   padding: 2rem;
   border: 2px solid #3f3e3f00;
   border-radius: 2rem;
