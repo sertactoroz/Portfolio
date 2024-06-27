@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/avatar2bd.png";
+import heroImg from "../../assets/img/hero/avatar2b.png";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
@@ -26,8 +26,9 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage
-              })`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage})`,
+            backgroundColor: 'rgba(0, 0, 0, 0.2)', // Add this line
+            backgroundBlendMode: 'overlay' // Optional: This ensures the backgroundColor blends with the image
           }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
