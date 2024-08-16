@@ -5,7 +5,7 @@
     font-size: 125px;
     line-height: 1;
     letter-spacing: 5px;
-    color: #444;
+    color: goldenrod;
     @media screen and (max-width: 768px) {
       font-size: 80px;
     }
@@ -26,7 +26,7 @@
   }
   .content {
     p {
-      color: #000;
+      color: goldenrod;
       margin-bottom: 35px;
       margin-top: 15px;
       font-size: 18px;
@@ -48,7 +48,7 @@
       }
       a {
         text-decoration: none;
-        color: #000;
+        color:goldenrod;
         transition: 0.4s;
       }
     }
