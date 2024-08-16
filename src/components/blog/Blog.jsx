@@ -1,18 +1,18 @@
 import React from "react";
 import Modal from "react-modal";
-import cancelImg from "../../assets/img/cancel.svg";
-import UseData from "../../Hooks/UseData";
-import blogQuote from "../../assets/img/blog/quote.svg";
+// import cancelImg from "../../assets/img/cancel.svg";
+// import UseData from "../../Hooks/UseData";
+// import blogQuote from "../../assets/img/blog/quote.svg";
 import error from "../../assets/img/error.png";
 
 Modal.setAppElement("#root");
 
 const Blog = () => {
-  const { singleData, isOpen, setIsOpen, blogsData, handleBlogsData } =
-    UseData();
-  const handleModle = (id) => {
-    handleBlogsData(id);
-  };
+  // const { singleData, isOpen, setIsOpen, blogsData, handleBlogsData } =
+  //   UseData();
+  // const handleModle = (id) => {
+  //   handleBlogsData(id);
+  // };
   return (
     <>
 <div className="row justify-content-center text-center">
