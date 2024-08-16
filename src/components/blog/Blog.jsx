@@ -3,6 +3,7 @@ import Modal from "react-modal";
 import cancelImg from "../../assets/img/cancel.svg";
 import UseData from "../../Hooks/UseData";
 import blogQuote from "../../assets/img/blog/quote.svg";
+import error from "../../assets/img/error.png";
 
 Modal.setAppElement("#root");
 
@@ -14,8 +15,13 @@ const Blog = () => {
   };
   return (
     <>
-      <div className="row">
-        {blogsData.map((item) => (
+<div className="row justify-content-center text-center">
+      <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50" >
+      Oops! This page is still in the oven.<br /> Stay tuned while we cook up something awesome!
+          </p>
+          <img src={error} alt="Error" style={{ width: "75%", height: "auto" }} />
+ 
+        {/* {blogsData.map((item) => (
           <div
             key={item.id}
             className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30"
@@ -29,7 +35,7 @@ const Blog = () => {
                   <img src={item?.img} className="img-fluid" alt="item.title" />
                 </div>
               </div>
-              {/* End .thumb */}
+   
               <div className="post-content">
                 <div className="entry-header">
                   <h3>{item?.title}</h3>
@@ -38,10 +44,8 @@ const Blog = () => {
                   <p>{item?.description1.slice(0, 100)}</p>
                 </div>
               </div>
-              {/* End .post-content */}
             </article>
 
-            {/* Start ModalOneBlogContent */}
             <Modal
               isOpen={isOpen}
               onRequestClose={() => setIsOpen(false)}
@@ -57,10 +61,8 @@ const Blog = () => {
                 >
                   <img src={cancelImg} alt="close icon" />
                 </button>
-                {/* End close icon */}
 
                 <div className="box_inner blog-post">
-                  {/* Article Starts */}
                   <article>
                     <div className="title-section text-left text-sm-center">
                       <h1>
@@ -68,7 +70,6 @@ const Blog = () => {
                       </h1>
                       <span className="title-bg">posts</span>
                     </div>
-                    {/* Meta Starts */}
 
                     <div className="meta open-sans-font">
                       <span>
@@ -81,8 +82,6 @@ const Blog = () => {
                         <i className="fa fa-tags"></i> {singleData.tag}
                       </span>
                     </div>
-                    {/* Meta Ends */}
-                    {/* Article Content Starts */}
 
                     <h1>{singleData?.title}</h1>
                     <img
@@ -101,15 +100,12 @@ const Blog = () => {
                       <p>{singleData?.description3}</p>
                       <p>{singleData?.description4}</p>
                     </div>
-                    {/* Article Content Ends */}
                   </article>
-                  {/* Article Ends */}
                 </div>
               </div>
             </Modal>
-            {/* End  ModalOneBlogContent */}
           </div>
-        ))}
+        ))} */}
       </div>
     </>
   );
