@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image404 from "../assets/img/404.jpg";
+// import image404 from "../assets/img/404.jpg";
 import MatrixEffect from "../components/MatrixEffect";
 
 localStorage.setItem("theme-color", "dark");
