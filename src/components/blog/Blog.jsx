@@ -17,10 +17,10 @@ const Blog = () => {
     <>
 <div className="row justify-content-center text-center">
       <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50" >
-      Oops! This page is still in the oven.<br /> Stay tuned while we cook up something awesome!
+      Oops!  This page is still in the oven<br /> Stay tuned while we cook up something awesome!
           </p>
           <img src={error} alt="Error" style={{ width: "75%", height: "auto" }} />
- 
+          
         {/* {blogsData.map((item) => (
           <div
             key={item.id}
