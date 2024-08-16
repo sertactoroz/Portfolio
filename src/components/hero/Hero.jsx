@@ -12,7 +12,7 @@ const heroContent = {
   heroTitleName: "Sertaç Toröz",
   heroDesignation: "Software Developer",
   heroDescriptions: `
-  I'm a Turkish full-stack developer dedicated to crafting seamless and user-centric digital experiences. My passion lies in leveraging technology to create innovative solutions that enhance the lives of others.`,
+  I'm a full-stack developer dedicated to crafting seamless and user-centric digital experiences. My passion lies in leveraging technology to create innovative solutions that enhance the lives of others.`,
   heroBtn: "more about me",
 };
 const Hero = () => {

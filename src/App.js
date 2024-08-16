@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
 import MatrixEffect from "./components/MatrixEffect";
-
 const App = () => {
   // this for animation
   useEffect(() => {
@@ -14,7 +13,6 @@ const App = () => {
       duration: 1200,
     });
   }, []);
-
   return (
     <>
       <AnimatedCursor
@@ -34,5 +32,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
