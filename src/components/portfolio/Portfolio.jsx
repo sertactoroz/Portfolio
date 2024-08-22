@@ -17,11 +17,11 @@ const Portfolio = () => {
       <div className="portfolio-main">
         <Tabs>
           <TabList className="portfolio-tab-list" data-aos="fade-up">
+            <Tab>All</Tab>
             <Tab>JavaScript</Tab>
             <Tab>React</Tab>
+            <Tab>React-Native</Tab>
             <Tab>PHP</Tab>
-            <Tab>Flutter</Tab>
-            <Tab>Java</Tab>
           </TabList>
 
           <div className="container">
@@ -52,7 +52,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("logo")).map(
+                {PortfolioData.filter((item) => item.tag.includes("Javascript")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -80,7 +80,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("video")).map(
+                {PortfolioData.filter((item) => item.tag.includes("React")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -109,7 +109,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("graphic design")
+                  item.tag.includes("React-Native")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (
@@ -137,7 +137,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.filter((item) =>
-                  item.tag.includes("mockup")
+                  item.tag.includes("PHP")
                 ).map((item) => {
                   const { id, type, image, delayAnimation } = item;
                   return (
