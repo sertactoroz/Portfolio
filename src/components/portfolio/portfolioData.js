@@ -1,13 +1,47 @@
-import Image1 from "../../assets/img/portfolio/contentlab1.png";
-import Image2 from "../../assets/img/portfolio/ukiyo.png";
-import Image3 from "../../assets/img/portfolio/addad1.png";
-import Image4 from "../../assets/img/portfolio/ccifilo.png";
+import Image1 from "../../assets/img/portfolio/balance.png";
+import Image2 from "../../assets/img/portfolio/addad1.png";
+import Image3 from "../../assets/img/portfolio/contentlab1.png";
+import Image4 from "../../assets/img/portfolio/ukiyo2.png";
+import Image5 from "../../assets/img/portfolio/ccifilo1.png";
 
 const PortfolioData = [
+  
   {
     id: 1,
-    type: "Website",
+    type: "Cryptocurrency Platform",
     image: Image1,
+    tag: ["React","Java"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Development of Trade/Spot Module",
+        client: "Balance Network Exchange",
+        language: "React,Java",
+        preview: "https://www.balancenetwork.io/trade/spot/",
+        link: "https://www.balancenetwork.io/trade/spot/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    type: "Advertisement Platform",
+    image: Image2,
+    tag: ["Javascript","PHP"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Website",
+        client: "Opet, Watsons,Tesco, File",
+        language: " HTML, CSS, Javascript,React",
+        preview: "https://addad.io/",
+        link: "https://addad.io/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "Website",
+    image: Image3,
     tag: ["Javascript"],
     delayAnimation: "0",
     modalDetails: [
@@ -21,9 +55,9 @@ const PortfolioData = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     type: "Website",
-    image: Image2,
+    image: Image4,
     tag: ["Javascript"],
     delayAnimation: "100",
     modalDetails: [
@@ -36,11 +70,10 @@ const PortfolioData = [
       },
     ],
   },
-  
   {
-    id: 3,
+    id: 5,
     type: "Vehicle and Personnel Tracking App",
-    image: Image4,
+    image: Image5,
     tag: ["React-Native", "PHP",],
     delayAnimation: "200",
     modalDetails: [
@@ -53,23 +86,6 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 4,
-    type: "Advertisement Platform",
-    image: Image3,
-    tag: ["Javascript","PHP"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Opet, Watsons,Tesco, File",
-        language: " HTML, CSS, Javascript,React",
-        preview: "https://addad.io/",
-        link: "https://addad.io/",
-      },
-    ],
-  },
-
 ];
 
 export default PortfolioData;

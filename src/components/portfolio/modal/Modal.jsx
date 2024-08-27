@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../../assets/img/portfolio/contentlab.png";
 import img2 from "../../../assets/img/portfolio/addad.png";
-import portfolioVideo from "../../../assets/img/portfolio/video.mp4";
+// import portfolioVideo from "../../../assets/img/portfolio/video.mp4";
 import CloseImg from "../../../assets/img/cancel.svg";
 import PortfolioData from "../portfolioData";
 import Slider from "react-slick";
@@ -303,7 +303,7 @@ const Modal = ({ modalId, setGetModal }) => {
                     controls
                     poster={item.image}
                   >
-                    <source src={portfolioVideo} type="video/mp4" />
+                    {/* <source src={portfolioVideo} type="video/mp4" /> */}
                     {/* <source src="img/" type="video/mp4" /> */}
                   </video>
                 </figure>
