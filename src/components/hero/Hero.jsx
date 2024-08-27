@@ -27,8 +27,8 @@ const Hero = () => {
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage})`,
-            backgroundColor: 'rgba(0, 0, 0, 0.2)', // Add this line
-            backgroundBlendMode: 'overlay' // Optional: This ensures the backgroundColor blends with the image
+            backgroundColor: 'rgba(0, 0, 0, 0.0)',
+            backgroundBlendMode: 'overlay' 
           }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">

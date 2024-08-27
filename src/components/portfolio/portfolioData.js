@@ -3,13 +3,6 @@ import Image2 from "../../assets/img/portfolio/ukiyo.png";
 import Image3 from "../../assets/img/portfolio/addad1.png";
 import Image4 from "../../assets/img/portfolio/ccifilo.png";
 
-// import Image4 from "../../assets/img/portfolio/project-4.jpg";
-// import Image5 from "../../assets/img/portfolio/project-5.jpg";
-// import Image6 from "../../assets/img/portfolio/project-6.jpg";
-// import Image7 from "../../assets/img/portfolio/project-7.jpg";
-// import Image8 from "../../assets/img/portfolio/project-8.jpg";
-// import Image9 from "../../assets/img/portfolio/project-9.jpg";
-
 const PortfolioData = [
   {
     id: 1,
@@ -35,7 +28,7 @@ const PortfolioData = [
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "video",
+        project: "Website",
         client: "Ukiyo Yatching",
         language: "Javascript",
         preview: "https://ukiyodatca.com/",
@@ -53,7 +46,7 @@ const PortfolioData = [
     modalDetails: [
       {
         project: "Vehicle and Personnel Tracking",
-        client: "Coca Cola",
+        client: "Coca Cola Co.",
         language: "React Native",
         preview: "https://play.google.com/store/search?q=ccifiloapp&c=apps",
         link: "https://play.google.com/store/search?q=ccifiloapp&c=apps",
