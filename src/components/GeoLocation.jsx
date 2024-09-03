@@ -24,7 +24,7 @@ function GeoLocation() {
 
     return (
         <div>
-            <p class="mb-0">Visitor Info</p>         <p class="mt-0">City: {currLocation.city}</p>
+            <p class="mb-0">Visitor Info / City: {currLocation.city}</p>
             {/* <p>Latitude: {currLocation.latitude}</p>
             <p>Longitude: {currLocation.longitude}</p> */}
 

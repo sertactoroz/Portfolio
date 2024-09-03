@@ -11,8 +11,10 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Sertaç Toröz",
   heroDesignation: "Software Developer",
-  heroDescriptions: `
-  I'm a full-stack developer dedicated to crafting seamless and user-centric digital experiences. My passion lies in leveraging technology to create innovative solutions that enhance the lives of others.`,
+  heroDescription1: `
+  I'm a multifaceted developer who loves solving problems and building innovative web and mobile apps that focus on a great user experience and smooth functionality.`,
+  heroDescription2: `My background spans both frontend and backend development, with hands-on experience in technologies like React, React Native, and Flutter. I'm passionate about crafting elegant, efficient code and delivering top-notch products. I thrive where creativity meets tech, always looking to learn, grow, and make meaningful contributions.`,
+  heroDescription3: `When I'm not coding, you’ll find me playing guitar and singing at a local surf club—because I love creating music and performing live!`,
   heroBtn: "more about me",
 };
 const Hero = () => {
@@ -42,7 +44,9 @@ const Hero = () => {
               I'm {heroContent.heroTitleName}.
               <span style={{ fontSize: '0.8em' }}>{heroContent.heroDesignation}</span>
             </h1>
-            <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+            <p className="open-sans-font" style={{ marginBottom: 0 }}>{heroContent.heroDescription1}</p>
+            <p className="open-sans-font" style={{ marginBottom: 0 }}>{heroContent.heroDescription2}</p>
+            <p className="open-sans-font">{heroContent.heroDescription3}</p>
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
