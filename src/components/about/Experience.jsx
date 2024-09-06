@@ -2,27 +2,33 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "2023 - Present",
-    position: "Full-stack Developer",
-    compnayName: "NGI Tech",
-    details: `NGI provides software solutions, encompassing AR, VR, and Image Processing to a global clientele. 
-    CCI Filo - Involved in the development of the CCI Filo, a vehicle and personnel tracking application for Coca Cola Co. 
-    Contentlab - Contributed to the Contentlab project, developed using HTML, CSS, and Vanilla JavaScript, focusing on scroll-triggered svg animations. 
-    Addad.io - Currently involved in the Addad.io project aimed at revolutionizing advertising dynamics for various enterprises.`,
+    year: "Sep 2021 - June 2024",
+    position: "Frontend Developer",
+    companyName: "NGI Tech",
+    details: `Contributed to the development of the CCI Filo, a vehicle and personnel tracking application for Coca Cola Co., using React Native.
+Developed the Contentlab corporate website with scroll-triggered SVG animations, which was part of a design competition.
+Delivered the Addad.io advertisement billboard platform, used by companies like Opet and Watsons, by developing the frontend for the billboard, the administration panel for real-time monitoring, the backend, and various shell scripts for operation. Utilized PHP, MySQL, React, and Raspberry Pi technology to stream targeted ads.`,
   },
   {
-    year: "2022 - 2023",
-    position: "Full-stack Developer",
-    compnayName: "Balance Network Exchange",
-    details: `Joined as a full-stack developer, actively participated in backlog grooming, sprint planning & other agile ceremonies.
-    Improved scalability via feature refactoring, bug fixes, and optimization. Frontend enhancements utilized React and TypeScript, and backend improvements with Java / Spring Boot for API requests.`,
+    year: "June 2022 - Jan 2023",
+    position: "Frontend Developer (Outsourced)",
+    companyName: "Balance Network Exchange",
+    details: `Assigned to the cryptocurrency exchange platform team with a React codebase to implement new features such as spot trading and various improvements.
+Improved codebase type safety by enforcing strict types and relationships.
+Implemented contract-based development through data type reviews, validation criteria, and unit testing in both front-end and back-end.`,
   },
   {
-    year: "2023 - Present",
+    year: "Jan 2023 - May 2023",
     position: "Mobile Developer (Volunteer)",
-    compnayName: "JuniusTech",
-    details: `Volunteering as a mobile developer, contributing to the development of Juniflow, a project management tool. Utilizing Dart/Flutter for implementation.`,
+    companyName: "JuniusTech",
+    details: `Volunteered as a mobile developer, contributing to the development of Juniflow, a credit-based task management platform targeting freelance and contractor development, using Dart and Flutter.`,
   },
+  {
+    year: "2012 - 2020",
+    position: "Web Developer",
+    companyName: "Freelance",
+    details: `Delivered various corporate websites, web applications, and WordPress systems as a freelancer.`,
+  }
 ];
 
 const Experience = () => {
